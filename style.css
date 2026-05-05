@@ -1,0 +1,39 @@
+.hidden { display: none; }
+
+body {
+  background: #0b0c0f;
+  color: #f0ede6;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #13141a;
+  border-bottom: 1px solid #222;
+}
+
+.logo { font-size: 1.2rem; font-weight: bold; color: #c8f04e; }
+
+nav button {
+  background: transparent;
+  color: #f0ede6;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+nav button:hover { color: #c8f04e; }
+
+.page {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+
+h1 { font-size: 2.5rem; margin-bottom: 1rem; }
